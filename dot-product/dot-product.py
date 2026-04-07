@@ -8,5 +8,4 @@ def dot_product(x, y):
     # Write code here
     if len(x) != len(y):
         raise ValueError("null")
-    else:
-        return np.asarray(x) @ np.asarray(y)
+    return np.asarray(x) @ np.asarray(y)
